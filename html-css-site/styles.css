@@ -66,3 +66,54 @@ p{
   background-color: #3882f6;
   border-radius:8px;
 }
+
+.info{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  row-gap:0;
+  width:100%;
+  
+}
+
+.info-title{
+  font-size:36px;
+  font-weight:900;
+  color:#1F2937;
+}
+
+.info-illustrations{
+  display:flex;
+  flex-direction:row;
+  width:60%;
+  justify-content: space-around;
+}
+
+.info-element{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:150px;
+  margin-top:5px;
+  
+}
+
+.info-empty-box{
+  width:150px;
+  height:150px;
+  border-style:solid;
+  border-color:#3882f6;
+  border-width:5px;
+  border-radius:16px;
+}
+
+.info-subtext{
+  margin:5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  font-size:18px;
+  color: #6a6b6c;
+}
