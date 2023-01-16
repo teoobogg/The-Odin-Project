@@ -27,24 +27,42 @@ p{
   flex-direction:row;
   justify-content: space-between;
   column-gap:15px;
+  font-size:18px;
+  color: #a4a8af;
 }
 
 .header-row2{
 	display:flex;
   flex-direction:row;
   justify-content: space-between;
-  column-gap:75px;
+  column-gap:170px;
 }
 
 .header-hero{
   display:flex;
+  flex-direction:column;
+  row-gap:0;
 }
 
 .header-pic-plho{
   width:750px;
   height:200px;
+  margin:0;
   display:flex;
   align-items: center;
   justify-content: center;
   background-color: grey;
+}
+
+.header-su-button{
+  width:120px;
+  height:35px;
+  margin:0;
+  font-family:Roboto, Arial;
+  border:0;
+  font-size:16px;
+  font-weight:500;
+  color:white;
+  background-color: #3882f6;
+  border-radius:8px;
 }
