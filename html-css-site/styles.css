@@ -157,10 +157,10 @@ p{
   display:flex;
   flex-direction:row;
   border-radius:10px;
-  position:absolute;
-  left:15%;
-  right:15%;
+  margin-left:15%;
+  margin-right:15%;
   margin-top:100px;
+  margin-bottom:100px;
   height:160px;
   padding: 0 100px;
 }
@@ -184,4 +184,15 @@ p{
   border-color:white;
   border-width:3px;
   border-style:solid;
+}
+
+.footer{
+  background-color: #1F2937;
+  color:white;
+  display:flex;
+  justify-content: center;
+  padding:50px 0;
+  position:relative;
+  bottom:0;
+  font-size:18px;
 }
