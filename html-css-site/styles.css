@@ -117,3 +117,35 @@ p{
   font-size:18px;
   color: #6a6b6c;
 }
+
+.quote{
+  background-color: #e5e7eb;
+  position:relative;
+  margin-top:50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  
+  padding:85px 0;
+}
+
+.quote-text{
+  width:60%;
+  display:inline-block;
+  font-size:36px;
+  color:#1F2937;
+  font-weight:300;
+  font-style:italic;
+}
+
+.quote-author{
+  position:absolute;
+  display:inline;
+  right:25%;
+  bottom:100px;
+  color:white;
+  font-size:20px;
+  color:#1f2037;
+  font-weight:600;
+}
